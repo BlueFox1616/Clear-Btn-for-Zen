@@ -6,5 +6,8 @@ Add the userChrome.css and Inject the js however you want
 Credits to https://github.com/Darsh-A/Ai-TabGroups-ZenBrowser for the clear tabs js code logic 
 
 
-https://github.com/user-attachments/assets/4afd39c5-5b89-43ad-a038-81d0b9acd928
+
+
+
+https://github.com/user-attachments/assets/61c6d077-8c7f-4d50-988a-f078866a5ad5
 
