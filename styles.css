@@ -1,0 +1,9 @@
+.vertical-pinned-tabs-container-separator {
+    display: flex; /* Enable flexbox layout */
+    align-items: center; /* Vertically center the items */
+    justify-content: flex-end; /* Align the items to the left */
+}
+
+.vertical-pinned-tabs-container-separator > * {
+    /* Ensure the children are treated as inline-block elements */
+}
