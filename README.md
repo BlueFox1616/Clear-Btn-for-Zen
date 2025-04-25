@@ -4,6 +4,8 @@ A clear button for the Zen browser
 
 Add the userChrome.css and Inject the js however you want .
 
+⚠️IM WORKING ON MAKING IT COMPATIBLE WITH AUTO CONFIG FX SO IT'S EASY TO ADD INSTEAD OF PASTING INTO THE CONSOLE⚠️
+
 Credits to https://github.com/Darsh-A/Ai-TabGroups-ZenBrowser for the clear tabs js code logic .
 
 If anyone can help with sumbitting a PR and actaully adding the feature to Zen feel free to open an issue or message me.
