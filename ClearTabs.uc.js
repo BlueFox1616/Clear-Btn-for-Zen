@@ -131,6 +131,7 @@
                     font-weight: bold;
                     cursor: pointer;
                     user-select: none;
+                    -moz-window-dragging: no-drag;
                     transition: font-size 0.3s ease, padding-left 0.3s ease, opacity 0.3s ease;
                 `;
 
