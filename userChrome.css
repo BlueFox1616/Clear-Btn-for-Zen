@@ -4,6 +4,14 @@
     justify-content: flex-end; /* Align the items to the left */
 }
 
-.vertical-pinned-tabs-container-separator > * {
-    /* Ensure the children are treated as inline-block elements */
+.vertical-pinned-tabs-container-separator:hover > .clear-tabs-button {
+    opacity: 1;
+}
+.arrow {
+    display: inline-block;
+    transition: transform 0.3s ease; /* Adds smooth movement */
+}
+
+.arrow.move-down {
+    transform: translateY(10px); /* Move the arrow 10px down */
 }
