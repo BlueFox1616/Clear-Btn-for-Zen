@@ -146,7 +146,7 @@
           font-size: 10px;
           display: inline-block;
           position: absolute;
-          right: 0;
+          right: 2%;
           font-weight: bold;
           cursor: pointer;
           user-select: none;
