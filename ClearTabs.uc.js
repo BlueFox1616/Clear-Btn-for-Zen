@@ -1,5 +1,5 @@
 (async () => {
-  await ZenWorkspaces.promiseSectionsInitialized;
+  await gZenWorkspaces.promiseSectionsInitialized;
 
   const observer = new MutationObserver(() => {
     addClearButton();
@@ -14,7 +14,7 @@
 
   const checkTabsAndUpdateOpacity = () => {
     try {
-      const currentWorkspaceId = window.ZenWorkspaces?.activeWorkspace;
+      const currentWorkspaceId = window.gZenWorkspaces?.activeWorkspace;
       if (!currentWorkspaceId) return;
 
       const groupSelector = `tab-group:has(tab[zen-workspace-id="${currentWorkspaceId}"])`;
@@ -68,7 +68,7 @@
 
   const clearTabs = () => {
     try {
-      const currentWorkspaceId = window.ZenWorkspaces?.activeWorkspace;
+      const currentWorkspaceId = window.gZenWorkspaces?.activeWorkspace;
       if (!currentWorkspaceId) return;
 
       const groupSelector = `tab-group:has(tab[zen-workspace-id="${currentWorkspaceId}"])`;
