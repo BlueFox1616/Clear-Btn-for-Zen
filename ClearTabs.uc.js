@@ -145,8 +145,8 @@
           padding-left: 8px;
           font-size: 10px;
           display: inline-block;
-          position: absolute;
-          right: 2%;
+          position: relative;
+          left: 25%;
           font-weight: bold;
           cursor: pointer;
           user-select: none;
